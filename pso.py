@@ -44,6 +44,7 @@ def particle_swarm(p_count, wv, phi_p, phi_g, lr):
         wv (float/int): scalar importance of current velocity
         phi_p (float/int): scalar importance of particle's best weight
         phi_g (float/int): scalar importance of swarm's best weight
+        lr (float): learn rate
     """
     particles = [Particle() for i in range(p_count)]
     highest_reward = 0
