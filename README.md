@@ -8,9 +8,9 @@ PSO is an optimization method in which there is a group of "particles" that each
 ![](uploads/ParticleSwarmArrowsAnimation.gif)
 ###### GIF Source: Wikipedia
 
-![](uploads/eq_1)
+![](uploads/eq_1.png)
 ###### Velocity Update; Source: High Dimensional Adaptive Particle Swarm Optimization on Heterogeneous Systems
-![](uploads/eq_2)
+![](uploads/eq_2.png)
 ###### Particle Update; Source: High Dimensional Adaptive Particle Swarm Optimization on Heterogeneous Systems
 
 This method is not guaranteed to converge to the global optimal solution. Behavioral changes are governed by velocities affected by parameter selection, to which this method is very sensitive to. 
@@ -19,7 +19,7 @@ I coded the most simple implementation here as well as its adaptive version for 
 
 The adaptive version automatically changes the intertia parameter based on the clustering of particles.
 
-![](uploads/eq_3)
+![](uploads/eq_3.png)
 ###### Inertia Update; Source: High Dimensional Adaptive Particle Swarm Optimization on Heterogeneous Systems
 
 An inertia of <0.3 indicates swarm convergence and a value of >0.7 indicates the swarm needs to escape local optima. Values between are standard eploration and eploitation.
