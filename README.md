@@ -29,6 +29,16 @@ It also automatically changes the cognitive parameter, which prioritizes a parti
 ![](uploads/strategies.png)
 ###### Source: Adaptive Particle Swarm Optimization (2009)
 
-There are many variations to this optimization algorithm that I'll add at a later time.
+![](uploads/behavior.png)
+###### Source: Adaptive Particle Swarm Optimization (2009)
+
+The particle positions in the above image show exploration, exploitation, and a jumping out by the globally best particle, respectively.
+
+The swarm can be in multiple strategy states at once. The transition from one state to the next is defuzzified by the singloid method and a state transition logic scheme.
+
+![](uploads/clustering.png)
+###### Source: Adaptive Particle Swarm Optimization (2009)
+
+One update that needs to be made to this implementation is the addition of a gaussian perturbance of the globally best particle when it is in a convergent state. There are many variations to this optimization algorithm that I'll add at a later time.
 
 The maximum score for this environment is 500.
