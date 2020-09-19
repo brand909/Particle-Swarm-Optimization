@@ -26,7 +26,7 @@ An inertia of <0.3 indicates swarm convergence and a value of >0.7 indicates the
 
 It also automatically changes the cognitive parameter, which prioritizes a particles behavior towards its own best found strategy, and the social parameter, which will cause a particle to tend more towards the most succesful particle in the swarm. The algorithm does this by changing the swarm strategy by calculating the evolutionary factor, phi in the above equation, and applying a fuzzy clustering to determine which strategies it is in and to transition to. There are four strategies: S1, S2, S3, S4.
 
-![](uploads/strategies)
+![](uploads/strategies.png)
 ###### Source: Adaptive Particle Swarm Optimization (2009)
 
 There are many variations to this optimization algorithm that I'll add at a later time.
